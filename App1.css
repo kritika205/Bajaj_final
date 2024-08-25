@@ -1,0 +1,101 @@
+/* App.css */
+
+/* Background Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74EBD5 0%, #9FACE6 100%); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.app-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    color: #2C3E50; /* Deep Blue */
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input Container */
+.input-container {
+    margin-bottom: 25px;
+}
+
+/* Text Area Styling */
+.json-input {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    background-color: #f4f6f7; /* Light Gray */
+    color: #34495E; /* Darker Blue */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button Styling */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #E74C3C; /* Bright Red */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #C0392B; /* Darker Red */
+    transform: scale(1.05);
+}
+
+/* Options Container */
+.options-container {
+    margin-bottom: 25px;
+}
+
+.options-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2980B9; /* Darker Blue */
+    font-weight: bold;
+}
+
+/* Response Container */
+.response-container {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.response-container h2 {
+    color: #8E44AD; /* Purple */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.response-container p {
+    color: #16A085; /* Green-Teal */
+    font-size: 14px;
+}
